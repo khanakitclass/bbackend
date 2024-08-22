@@ -13,7 +13,7 @@ server.use('/public', express.static(path.join(__dirname, 'public')))
 server.use(express.urlencoded({ extended: true }));
 
 server.use(cors({
-  origin: 'https://bfrontend-eight.vercel.app/',
+  origin: 'https://bfrontend-eight.vercel.app',
   credentials: true
 }));
 
